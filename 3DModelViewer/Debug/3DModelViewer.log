@@ -1,0 +1,19 @@
+﻿  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: APIENTRY: изменение макроопределения
+U:\ThreeDModel-Database\3DModelViewer\AdditionalLibraries\glfw-3.3.5.bin.WIN64\include\GLFW\glfw3.h(123): message : см. предыдущее определение "APIENTRY"
+U:\ThreeDModel-Database\3DModelViewer\Main.cpp(225,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+U:\ThreeDModel-Database\3DModelViewer\Main.cpp(251,22): warning C4244: аргумент: преобразование "float" в "GLint", возможна потеря данных
+U:\ThreeDModel-Database\3DModelViewer\Main.cpp(251,16): warning C4244: аргумент: преобразование "float" в "GLint", возможна потеря данных
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwInit в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwTerminate в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwCreateWindow в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwWindowShouldClose в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwGetFramebufferSize в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwPollEvents в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwSetInputMode в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwMakeContextCurrent в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _glfwSwapBuffers в функции "public: bool __thiscall Cube::MainLoopDraw(bool)" (?MainLoopDraw@Cube@@QAE_N_N@Z).
+U:\ThreeDModel-Database\3DModelViewer\AdditionalLibraries\glfw-3.3.5.bin.WIN64\lib-vc2015\glfw3.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+U:\ThreeDModel-Database\3DModelViewer\AdditionalLibraries\glew-2.2.0\lib\Release\x64\glew32.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+U:\ThreeDModel-Database\3DModelViewer\AdditionalLibraries\freeglut\lib\x64\freeglut.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+U:\ThreeDModel-Database\3DModelViewer\Debug\3DModelViewer.exe : fatal error LNK1120: неразрешенных внешних элементов: 9
