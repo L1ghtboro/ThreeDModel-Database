@@ -155,12 +155,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CustomVector.h" />
+    <ClInclude Include="CustomVectorDimension.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="ModelViewerMain.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CustomVector.cpp" />
+    <ClCompile Include="CustomVectorDimension.cpp" />
     <ClCompile Include="ModelViewerMain.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -15,6 +15,7 @@
 #include <iostream>
 #include <cstdlib>
 
+#include <Windows.h>
 
 void ErrorExit(LPTSTR lpszFunction) {
 	LPVOID lpMsgBuf;
@@ -38,6 +39,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
 	int exitcode = 0;
 	if (!AllocConsole())
 		ErrorExit(LPTSTR("AllocConsole"));
+
 
 	if (!FreeConsole())
 		ErrorExit(LPTSTR("FreeConsole"));

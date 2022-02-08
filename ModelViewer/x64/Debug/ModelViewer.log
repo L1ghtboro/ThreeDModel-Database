@@ -1,0 +1,3 @@
+﻿  ModelViewerMain.cpp
+U:\ThreeDModel-Database\ModelViewer\ModelViewerMain.cpp(46,13): warning C4930: FlatVector New(void): функция с прототипом не вызвана (предполагалось определение переменной?)
+  ModelViewer.vcxproj -> U:\ThreeDModel-Database\ModelViewer\x64\Debug\ModelViewer.exe
