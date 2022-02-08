@@ -39,6 +39,15 @@
     <ClInclude Include="CustomVectorDimension.h">
       <Filter>Файлы заголовков\NoRefencesClass</Filter>
     </ClInclude>
+    <ClInclude Include="VectorMatrix.h">
+      <Filter>Файлы заголовков\NoRefencesClass</Filter>
+    </ClInclude>
+    <ClInclude Include="NonProcessRender.h">
+      <Filter>Файлы заголовков\NoRefencesClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseTracker.h">
+      <Filter>Файлы заголовков\NoRefencesClass</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ModelViewer.rc">
@@ -61,6 +70,9 @@
       <Filter>Исходные файлы\NoReferncesClass</Filter>
     </ClCompile>
     <ClCompile Include="CustomVectorDimension.cpp">
+      <Filter>Исходные файлы\NoReferncesClass</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMatrix.cpp">
       <Filter>Исходные файлы\NoReferncesClass</Filter>
     </ClCompile>
   </ItemGroup>

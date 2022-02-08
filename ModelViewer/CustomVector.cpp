@@ -4,34 +4,34 @@ FlatVector::FlatVector(void){
 	Initialize(0.0f, 0.0f);
 }
 
-FlatVector::FlatVector(float x, float y){
-	Initialize(x, y);
+FlatVector::FlatVector(float X, float Y){
+	Initialize(X, Y);
 }
 
 FlatVector::FlatVector(const FlatVector& Vector){
 	Copy(Vector);
 }
 
-FlatVector& FlatVector::operator= (const FlatVector& rhs) {
-	if (this != &rhs)
-		Copy(rhs);
+FlatVector& FlatVector::operator= (const FlatVector& VectorRef) {
+	if (this != &VectorRef)
+		Copy(VectorRef);
 	return *this;
 }
 
-const FlatVector FlatVector::operator+(const FlatVector& other) const {
-	FlatVector result;
-	result.SetX(StoreX + other.GetX()), result.SetY(StoreY + other.GetY());
-	return result;
+const FlatVector FlatVector::operator+(const FlatVector& ThirdParty) const {
+	FlatVector Result;
+	Result.SetX(StoreX + ThirdParty.GetX()), Result.SetY(StoreY + ThirdParty.GetY());
+	return Result;
 }
 
-const FlatVector FlatVector::operator-(const FlatVector& other) const {
-	FlatVector result;
-	result.SetX(StoreX - other.GetX()), result.SetY(StoreY - other.GetY());
-	return result;
+const FlatVector FlatVector::operator-(const FlatVector& ThirdParty) const {
+	FlatVector Result;
+	Result.SetX(StoreX - ThirdParty.GetX()), Result.SetY(StoreY - ThirdParty.GetY());
+	return Result;
 }
 
-void FlatVector::Initialize(float x, float y) {
-	StoreX = x, StoreY = y;
+void FlatVector::Initialize(float X, float Y) {
+	StoreX = X, StoreY = Y;
 }
 
 void FlatVector::Copy(const FlatVector& Vector) {

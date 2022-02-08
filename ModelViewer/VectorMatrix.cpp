@@ -27,31 +27,31 @@ void VectorMatrix::SetIdentity(){
 }
 
 VectorMatrix VectorMatrix::operator* (const VectorMatrix& VectorRef) const{
-	VectorMatrix result;
+	VectorMatrix Result;
 
 	for (int i = 0; i < 4; i++){
 		for (int j = 0; j < 4; j++){
-			result.Matrix[i][j] = 0;
+			Result.Matrix[i][j] = 0;
 
 			for (int k = 0; k < 4; k++)
-				result.Matrix[i][j] += Matrix[i][k] * VectorRef.Matrix[k][j];
+				Result.Matrix[i][j] += Matrix[i][k] * VectorRef.Matrix[k][j];
 		}
 	}
 
-	return result;
+	return Result;
 }
 
 DimensionedVector VectorMatrix::operator* (const DimensionedVector& VectorRef) const{
-	DimensionedVector result;
+	DimensionedVector Result;
 
-	result = VectorRef;
+	Result = VectorRef;
 
-	result[0] = (Matrix[0][0] * VectorRef[0]) + (Matrix[0][1] * VectorRef[1]) + (Matrix[0][2] * VectorRef[2]) + (Matrix[0][3] * VectorRef[3]);
-	result[1] = (Matrix[1][0] * VectorRef[0]) + (Matrix[1][1] * VectorRef[1]) + (Matrix[1][2] * VectorRef[2]) + (Matrix[1][3] * VectorRef[3]);
-	result[2] = (Matrix[2][0] * VectorRef[0]) + (Matrix[2][1] * VectorRef[1]) + (Matrix[2][2] * VectorRef[2]) + (Matrix[2][3] * VectorRef[3]);
-	result[3] = (Matrix[3][0] * VectorRef[0]) + (Matrix[3][1] * VectorRef[1]) + (Matrix[3][2] * VectorRef[2]) + (Matrix[3][3] * VectorRef[3]);
+	Result[0] = (Matrix[0][0] * VectorRef[0]) + (Matrix[0][1] * VectorRef[1]) + (Matrix[0][2] * VectorRef[2]) + (Matrix[0][3] * VectorRef[3]);
+	Result[1] = (Matrix[1][0] * VectorRef[0]) + (Matrix[1][1] * VectorRef[1]) + (Matrix[1][2] * VectorRef[2]) + (Matrix[1][3] * VectorRef[3]);
+	Result[2] = (Matrix[2][0] * VectorRef[0]) + (Matrix[2][1] * VectorRef[1]) + (Matrix[2][2] * VectorRef[2]) + (Matrix[2][3] * VectorRef[3]);
+	Result[3] = (Matrix[3][0] * VectorRef[0]) + (Matrix[3][1] * VectorRef[1]) + (Matrix[3][2] * VectorRef[2]) + (Matrix[3][3] * VectorRef[3]);
 
-	return result;
+	return Result;
 }
 
 void VectorMatrix::RotationRateX(float Deg){
