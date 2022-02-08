@@ -1,31 +1,15 @@
-﻿#pragma once
+﻿// header.h: включаемый файл для стандартных системных включаемых файлов
+// или включаемые файлы для конкретного проекта
+//
+
+#pragma once
 
 #include "targetver.h"
-#define WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN             // Исключите редко используемые компоненты из заголовков Windows
+// Файлы заголовков Windows
 #include <windows.h>
+// Файлы заголовков среды выполнения C
 #include <stdlib.h>
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
-#include <iostream>
-
-#include <stdio.h>
-#include <io.h>
-#include <fcntl.h>
-#include <strsafe.h>
-
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-#include <GL/freeglut.h>
-#include <GL/glext.h>
-
-#include <iostream>
-#include <cstdlib>
-#include <windows.h>
-
-#include <cmath>
-#include <ctime>
-
-#include <fstream>
-#include <map>
-#include <vector>

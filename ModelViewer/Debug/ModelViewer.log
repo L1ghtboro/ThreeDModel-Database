@@ -1,6 +1,2 @@
-﻿  ModelViewer.cpp
-U:\ThreeDModel-Database\ModelViewer\ModelViewer.cpp(22,7): error C2533: Cube::{ctor}: конструкторы не разрешены для возвращаемого типа
-U:\ThreeDModel-Database\ModelViewer\ModelViewer.cpp(207,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-U:\ThreeDModel-Database\ModelViewer\ModelViewer.cpp(233,22): warning C4244: аргумент: преобразование "float" в "GLint", возможна потеря данных
-U:\ThreeDModel-Database\ModelViewer\ModelViewer.cpp(233,16): warning C4244: аргумент: преобразование "float" в "GLint", возможна потеря данных
-U:\ThreeDModel-Database\ModelViewer\ModelViewer.cpp(280,39): error C2264: Cube::Cube: ошибка в определении или объявлении функции; функция не вызвана
+﻿  ModelViewerMain.cpp
+  ModelViewer.vcxproj -> U:\ThreeDModel-Database\ModelViewer\Debug\ModelViewer.exe

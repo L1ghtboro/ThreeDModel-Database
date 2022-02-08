@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f5c9f2cf-80b6-45e5-bec4-388744778aa8}</ProjectGuid>
+    <ProjectGuid>{dc36a9db-8e37-4660-b74c-5c1b9a5b9a9c}</ProjectGuid>
     <RootNamespace>ModelViewer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -155,35 +155,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AppUI.h" />
-    <ClInclude Include="AppWindow.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="ModelViewer.h" />
-    <ClInclude Include="ModelViewerApp.h" />
-    <ClInclude Include="ModelViewerCube.h" />
-    <ClInclude Include="ModelViewerPolygonal.h" />
-    <ClInclude Include="ModelViewerRect.h" />
-    <ClInclude Include="ModelViewerTriangleMesh.h" />
-    <ClInclude Include="MouseTracker.h" />
-    <ClInclude Include="RenderPostProcess.h" />
+    <ClInclude Include="ModelViewerMain.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AppUI.cpp" />
-    <ClCompile Include="AppWindow.cpp" />
-    <ClCompile Include="ModelViewer.cpp" />
-    <ClCompile Include="ModelViewerApp.cpp" />
-    <ClCompile Include="ModelViewerPolygonal.cpp" />
-    <ClCompile Include="ModelViewerRect.cpp" />
-    <ClCompile Include="ModelViewerTriangleMesh.cpp" />
-    <ClCompile Include="ModelViewrCube.cpp" />
+    <ClCompile Include="ModelViewerMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ModelViewer.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Logo.ico" />
     <Image Include="ModelViewer.ico" />
     <Image Include="small.ico" />
   </ItemGroup>

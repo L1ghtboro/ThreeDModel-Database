@@ -1,2 +1,0 @@
-U:\ThreeDModel-Database\ModelViewer\x64\Debug\ModelViewer.exe
-U:\ThreeDModel-Database\ModelViewer\x64\Debug\ModelViewer.pdb
