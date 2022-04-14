@@ -1,13 +1,3 @@
-Third Dimension Model Viewer and Shower Database
-======
+Have migrated to https://github.com/L1ghtboro/Onyx-Fate-Store
 
-ToDo Tasks:
-------
-
-- Create a resource that can show a current choosen 3d Model
-- Create an Import and Export methods 
-- Find a method how we can send 3d Model in database
-- Create a Database with 3d Models
-
-Optional:
-- Create nicele looking Interface.
+Even if it's raw please don't try to copy
